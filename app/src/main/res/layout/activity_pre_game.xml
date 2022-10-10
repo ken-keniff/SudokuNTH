@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".PreGameActivity"
+    android:background="@color/menuBackground"
+    android:id="@+id/pregame"
+
+    >
+
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/textViewEasy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Easy"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <include
+
+        android:id="@+id/variants"
+        layout="@layout/variants"
+
+        app:layout_constraintHeight_percent="0.75"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewEasy"
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/textViewNormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Normal"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/textViewHard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Hard"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/textViewRealHard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/RealHard"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <RadioGroup
+        android:layout_marginBottom="75px"
+        android:id="@+id/radiovariants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+        <RadioButton
+            android:id="@+id/radioeasy"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="radiovariantschanger"
+            />
+        <RadioButton
+            android:id="@+id/radionorm"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="radiovariantschanger"
+            />
+        <RadioButton
+            android:id="@+id/radiohard"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="radiovariantschanger"
+            />
+        <RadioButton
+            android:id="@+id/radiorealhard"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="radiovariantschanger"
+            />
+    </RadioGroup>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

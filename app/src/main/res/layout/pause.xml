@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pauseBackground"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/pauseBackground"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/pauseBackground"
+        />
+    <TextView
+        android:id="@+id/variantShowText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="75px"
+        android:text=""
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:textColor="@color/whiteningmuchmore"
+        />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinepause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"/>
+    <Button
+        android:id="@+id/pausebut4"
+        android:gravity="bottom|center_horizontal"
+        android:background="@drawable/pause_but_restart_animator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="0px"
+        android:minWidth="0px"
+        android:text="@string/Restart"
+        android:textColor="@color/whiteningmore"
+        app:layout_constraintRight_toLeftOf="@id/pausebut3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:onClick="restart"
+
+        />
+    <Button
+        android:id="@+id/pausebut3"
+        android:gravity="bottom|center_horizontal"
+        android:background="@drawable/pause_but_menu_animator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="0px"
+        android:minWidth="0px"
+        android:text="@string/Menu"
+        android:textColor="@color/whiteningmore"
+        app:layout_constraintRight_toRightOf="@id/guidelinepause"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:onClick="menu"
+
+        />
+    <Button
+        android:id="@+id/pausebut2"
+        android:gravity="bottom|center_horizontal"
+        android:background="@drawable/pause_but_options_animator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="0px"
+        android:minWidth="0px"
+        android:text="@string/options"
+        android:textColor="@color/whiteningmore"
+        app:layout_constraintLeft_toLeftOf="@id/guidelinepause"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:onClick="options"
+
+        />
+
+    <Button
+        android:id="@+id/pausebut1"
+        android:background="@drawable/pause_but_resume_animator"
+        android:gravity="bottom|center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="0px"
+        android:minWidth="0px"
+        app:layout_constraintLeft_toRightOf="@id/pausebut2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:onClick="resume"
+        android:text="@string/Resume"
+        android:textColor="@color/whiteningmore"
+
+
+       />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

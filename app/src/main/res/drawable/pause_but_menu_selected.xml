@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="70px"
+    android:height="70px"
+    android:viewportWidth="30"
+    android:viewportHeight="40"
+    >
+
+    <path
+
+        android:strokeWidth="0.5"
+        android:fillColor="@color/whitening"
+        android:pathData="M22.5,9
+        a3,4 0 10,0 -15,15
+        a3,-4 0 10,-10 15,-15
+        "
+        />
+
+    <path
+
+        android:strokeWidth="0.5"
+        android:fillColor="@color/whitening"
+        android:pathData="M24.5,7
+        a3,4 0 10,0 -19,19
+        a3,-4 0 10,-10 19,-19
+        "
+        />
+    <path
+        android:fillColor="@color/greyfull"
+        android:pathData="M10,13
+        a0.7,0.7 0 10,0 -0.7,-0.7
+        a0.7,-0.7 0 10,-10 0.7,-0.7
+        "
+        />
+    <path
+        android:fillColor="@color/greyfull"
+        android:pathData="M10,16
+        a0.7,0.7 0 10,0 -0.7,-0.7
+        a0.7,-0.7 0 10,-10 0.7,-0.7
+        "
+        />
+    <path
+        android:fillColor="@color/greyfull"
+        android:pathData="M10,19
+        a0.7,0.7 0 10,0 -0.7,-0.7
+        a0.7,-0.7 0 10,-10 0.7,-0.7
+        "
+        />
+    <path
+        android:fillColor="@color/greyfull"
+        android:pathData="M10,22
+        a0.7,0.7 0 10,0 -0.7,-0.7
+        a0.7,-0.7 0 10,-10 0.7,-0.7
+        "
+        />
+
+    <path
+        android:fillColor="@color/greyfull"
+        android:pathData="M13,12.2
+        a-0.5,0.5 0 0,0 0.5,-0.5
+        h8
+        a-0.5,0.5 0 0,0 0.5,0.5
+        v0.2
+        a0.5,0.5 0 0,-10 -0.5,0.5
+        h-8
+        a0.5,0.5 0 0,-10 -0.5,-0.5
+        "
+        />
+    <path
+        android:fillColor="@color/greyfull"
+        android:pathData="M13,15.2
+        a-0.5,0.5 0 0,0 0.5,-0.5
+        h8
+        a-0.5,0.5 0 0,0 0.5,0.5
+        v0.2
+        a0.5,0.5 0 0,-10 -0.5,0.5
+        h-8
+        a0.5,0.5 0 0,-10 -0.5,-0.5
+        "
+        />
+    <path
+        android:fillColor="@color/greyfull"
+        android:pathData="M13,18.2
+        a-0.5,0.5 0 0,0 0.5,-0.5
+        h8
+        a-0.5,0.5 0 0,0 0.5,0.5
+        v0.2
+        a0.5,0.5 0 0,-10 -0.5,0.5
+        h-8
+        a0.5,0.5 0 0,-10 -0.5,-0.5
+        "
+        />
+    <path
+        android:fillColor="@color/greyfull"
+        android:pathData="M13,21.2
+        a-0.5,0.5 0 0,0 0.5,-0.5
+        h8
+        a-0.5,0.5 0 0,0 0.5,0.5
+        v0.2
+        a0.5,0.5 0 0,-10 -0.5,0.5
+        h-8
+        a0.5,0.5 0 0,-10 -0.5,-0.5
+        "
+        />
+
+
+</vector>

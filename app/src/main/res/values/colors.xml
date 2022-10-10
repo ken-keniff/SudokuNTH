@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#ffc643</color>
+
+    <color name="black">#000000</color>
+    <color name="green">#1fd225</color>
+    <color name="greenpressed">#19a81e</color>
+    <color name="yellow">#fde910</color>
+    <color name="yellowpressed">#efda00</color>
+    <color name="orange_forbuttons">#fc9303</color>
+    <color name="orange_forbuttons_pressed">#f96d1d</color>
+    <color name="red">#eb0615</color>
+    <color name="redpressed">#e1000d</color>
+    <color name="darkbrown">#432623</color>
+    <color name="greyfull">#9a9e99</color>
+    <color name="greyfulldark">#2b2b2b</color>
+    <color name="greynotfulldark">#902b2b2b</color>
+    <color name="greyfullLight">#dbdee1</color>
+    <color name="grey">#50000000</color>
+    <color name="greyLight">#25000000</color>
+    <color name="white">#ffffff</color>
+    <color name="whitening">#50ffffff</color>
+    <color name="whiteningmore">#75ffffff</color>
+    <color name="whiteningmuchmore">#90ffffff</color>
+    <color name="orange">#ffc643</color>
+    <color name="indigo">#4c00ad</color>
+
+    <color name="menuBackground">#333333</color>
+    <color name="menuBackgroundtransparent">#32333333</color>
+    <color name="gameBackground1">#404040</color>
+    <color name="gameBackground">#4a4a4a</color>
+    <color name="pauseBackground">#99000000</color>
+    <color name="background">#333333</color>
+
+    <color name="menuButtons">#50ffffff</color>
+
+    <color name="unitSelectedTinted">#f9f3dc</color>
+    <color name="field_unit">#ededed</color>
+    <color name="line_field">#a8a8a8</color>
+    <color name="unit_field_prime">#60ffffff</color>
+    <color name="unit_field_similar">#ceffbc</color>
+    <color name="unit_field_mistake">#ff6347</color>
+    <color name="unit_field_mark">#fcfaf1</color>
+    <color name="unit_field_mark2">#50ca8aff</color>
+
+
+    <color name="OneNineButt">#15000000</color>
+    <color name="OneNineButtSelect">#20000000</color>
+    <color name="OneButtLightning">#30ffffff</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+</resources>

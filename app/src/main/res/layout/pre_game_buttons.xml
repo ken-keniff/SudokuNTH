@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <Button
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        android:id="@+id/easybutton"
+        android:background="@drawable/pre_game_button_easy_animator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Easy"
+        android:textSize="30sp"
+        android:onClick="easy"/>
+    <Button
+        app:layout_constraintTop_toBottomOf="@id/easybutton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        android:id="@+id/normalbutton"
+        android:background="@drawable/pre_game_button_normal_animator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Normal"
+        android:textSize="30sp"
+        android:onClick="normal"/>
+    <Button
+        app:layout_constraintTop_toBottomOf="@id/normalbutton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        android:id="@+id/hardbutton"
+        android:background="@drawable/pre_game_button_hard_animator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Hard"
+        android:textSize="30sp"
+        android:onClick="hard"/>
+    <Button
+        app:layout_constraintTop_toBottomOf="@id/hardbutton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        android:id="@+id/trymebutton"
+        android:background="@drawable/pre_game_button_tryme_animator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Tryme"
+        android:textSize="30sp"
+        android:onClick="try_me"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

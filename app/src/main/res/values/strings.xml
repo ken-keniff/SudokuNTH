@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Sudoku NTH</string>
+    <string name="resume">resume</string>
+    <string name="new_game">new game</string>
+    <string name="play">play</string>
+    <string name="options">Options</string>
+    <string name="exit">exit</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="start">start</string>
+    <string name="height">Height=</string>
+    <string name="width">Width=</string>
+    <string name="button">Button</string>
+
+    <string name="Youmadeit">YOU MADE IT!</string>
+    <string name="ClickAnywhere">Click Anywhere</string>
+
+    <string name="Easy">Easy</string>
+    <string name="Normal">Not so easy</string>
+    <string name="Hard">Normal</string>
+    <string name="RealHard">Hard</string>
+    <string name="Tryme">Try me)))</string>
+
+    <string name="screen">Screen always On</string>
+    <string name="right">Righthanded</string>
+    <string name="left">Lefthanded</string>
+    <string name="timer">Timer</string>
+    <string name="assistance">Assistance:</string>
+    <string name="lightUpSimilar">Light up similar</string>
+    <string name="cancelButton">Cancel button</string>
+    <string name="mistakes">Mistakes</string>
+    <string name="Save">Save</string>
+
+    <string name="Pause">Pause</string>
+    <string name="Restart">Restart</string>
+    <string name="Menu">Menu</string>
+    <string name="Resume">Resume</string>
+    <string name="YouCanSwipe">You can swipe to change difficulty</string>
+
+
+    <string name="OneNine_text_size">30px</string>
+    <string name="title_activity_pre_game2">PreGameActivity2</string>
+
+</resources>

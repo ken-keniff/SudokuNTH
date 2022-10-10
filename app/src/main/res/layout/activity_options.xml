@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OptionsActivity"
+    android:background="@color/background"
+    android:padding="5sp"
+    android:id="@+id/activityoptions"
+    >
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:id="@+id/buttonclose"
+        android:background="@drawable/close"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="Close"
+        />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidevertical1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.3" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidevertical2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.3" />
+
+
+    <Switch
+        android:id="@+id/ScreenOnSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:onClick="ScreenOn"
+        android:text="@string/screen"
+        android:textColor="@color/white"
+
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/switchhand"
+
+        />
+
+
+    <Switch
+        android:id="@+id/switchhand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:onClick="switchhand"
+        android:text="Switchhand"
+        android:textColor="@color/white"
+
+
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@id/timerswitch"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Switch
+
+        android:id="@+id/timerswitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+
+        android:text="@string/timer"
+        android:textColor="@color/white"
+        android:onClick="timer"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/guidehoriz" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidehoriz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.51" />
+    <TextView
+        android:id="@+id/assistancetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guidehoriz"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:text="@string/assistance"
+        />
+    <Switch
+
+        android:id="@+id/lightsimilarswitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+
+        android:text="@string/lightUpSimilar"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:onClick="lightsimilar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/assistancetext" />
+    <Switch
+        android:id="@+id/cancelActionSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/cancelButton"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:onClick="cancelActions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lightsimilarswitch"
+        />
+    <TextView
+        android:id="@+id/cancelActionDescription"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/cancelActionSwitch"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+    <Switch
+        android:id="@+id/redUnitSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mistakes"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:onClick="mistakes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cancelActionSwitch"
+        />
+    <TextView
+        android:id="@+id/passedlevelstext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/redUnitSwitch"
+        />
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

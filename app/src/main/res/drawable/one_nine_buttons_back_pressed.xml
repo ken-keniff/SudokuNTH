@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="70px"
+    android:height="70px"
+    android:viewportHeight="30"
+    android:viewportWidth="30"
+    >
+
+
+    <path
+
+        android:strokeWidth="0.15"
+        android:fillColor="@color/OneNineButt"
+        android:pathData="M6,3.5
+
+        a4,4 0 0,0 -3,3
+        v17
+        a4,4 0 0,0 3,3
+        h18
+        a4,4 0 0,0 3,-3
+        v-17
+        a4,4 0 0,0 -3,-3
+        Z"
+        />
+    <path
+
+        android:strokeWidth="0.15"
+
+        android:fillColor="@color/OneNineButtSelect"
+        android:pathData="M5,2.5
+
+        a4,4 0 0,0 -3,3
+        v19
+        a4,4 0 0,0 3,3
+        h20
+        a4,4 0 0,0 3,-3
+        v-19
+        a4,4 0 0,0 -3,-3
+        Z"
+        />
+
+
+</vector>
